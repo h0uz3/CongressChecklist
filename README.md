@@ -183,6 +183,8 @@ If you need help, just call for help, there are many, many people around to help
 	- camera strap
 	- lenses with lens caps
 	- lens cleaning cloth
+- Audio recorder and microphonesA
+- Audio cables of all sorts
 - USB <-> RS232 adapter (PL2023, because FTDI sucks balls!)
 - RS232 cable
 - USB A-B cable
