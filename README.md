@@ -13,12 +13,9 @@ You'll also find a list of all the nice humans who have contributed to this list
 
 ### Manners
 - Be excellent to each other.
-- If you spot somebody not being excellent to someone else, remind them to be excellent and have them apologi(s|z)e to the insulted part(y|ies), but only if the insulted wish to be apologi(s|z)ed to. Sometimes the insulted party will just want to move on and not have any further contact with someone who was coarse to them.
-- If you don't want to be called $swearword, don't behave like one.
 - Help each other out.
-- Read the “[Anti Harrassment Policy][3]” and live by it. :-)
-- Ask if it is ok to take a picture BEFORE taking the picture.
-
+- Take more pictures and videos while applying [liquid privacy] 
+- Limit Angel shifts to a healthy level.
 
 
 ## Things to do before traveling
@@ -28,12 +25,10 @@ You'll also find a list of all the nice humans who have contributed to this list
 - Update all the software on your devices.
 - You DID make backups of all your devices, didn't you? That includes portable computers, servers, mobile phones, tablets, navigation devices, wrist watches and all your other $gadgets.
 - Send a pull request to this list for all the things I did not think of.
-- Feed the guinea pigs.
-- Water your plants.
 - (optional) Create account in the [congress wiki][12], [add your projects][13] and [find your assembly][14].
 
 
- 
+
 ## Things to pack
 
 ### Documents
@@ -50,12 +45,12 @@ You'll also find a list of all the nice humans who have contributed to this list
 - credit card
 - coins (€uros, for automated vending machines, like public transport tickets)
 - Bitcoin wallet (the encrypted fashion with a good passphrase)
-- emergency numbers for your bank so you can lock your credit card/debit card/Bankomatkarte in case it gets lost/stolen/left behind.
+- emergency numbers for your bank: 116 116x
 
 
 ### Emergency information
 In case of an accident or other emergency condition carry a piece of information whom to contact or any special medical information that might be viable to your survival/first aid/medical staff.
-
+- I am a loner but have no known allergies. Yay!
 
 #### Emergency Information for 31C3:
 If you're in an emergency shout HELP!  
@@ -65,14 +60,9 @@ If you need help, just call for help, there are many, many people around to help
 - 31C3 Medical Emergency or in case of fire: Call local DECT 112 (CERT)
 - 31C3 Security: Call local DECT 110
 - 31C3 organizers: 31c3-orga@cccv.de
-- local law enforcement in Hamburg: 110 or +49 40 4286 - 51410
-- local sexual assault hotline in Hamburg: +49 40 - 255566 (http://www.frauennotruf-hamburg.de)
-- Hamburg fire department: +49 40 42851-0 (BETTER USE 112 ON YOUR non-31C3 PHONE)
-- Hamburg ambulance: +49 40 228022  (BETTER USE 112 ON YOUR non-31C3 PHONE)
-
 
 ### Personal hygiene
-- tooth brush (plus charger if it is an electrical one)
+- tooth brush
 - toothpaste
 - shower gel
 - shampoo (to avoid bad hair days)
@@ -98,6 +88,8 @@ If you need help, just call for help, there are many, many people around to help
 ### Cosmetics
 - nail file
 - razor (with spare blades)
+- shaving soap
+- shaving brush
 - lipbalm
 - tweezers
 - skin care
@@ -140,7 +132,7 @@ If you need help, just call for help, there are many, many people around to help
 
 
 ### Gear
-- MacBook Pro (with a working battery)
+- MacBook Pro (with a more or less working battery)
 - Mac Pro
 - monitor
 - charger for laptop
@@ -189,6 +181,8 @@ If you need help, just call for help, there are many, many people around to help
 - RS232 cable
 - USB A-B cable
 - USB 3.0 A-B cable
+- USB to Lightning cable
+- USB to Dock-Connector cable
 - mini USB cable
 - micro USB cable
 - Firewire 800 cable
@@ -215,40 +209,30 @@ If you need help, just call for help, there are many, many people around to help
 - musical instruments (guitar, Korg Triton, gameboy, guitalele)
 - digital mixing console
 - Electronic Tuner (with fresh batteries)
+- Lithium Batteries
 - cable ties
 - duct tape or gaffer tape
 - a blanket
 
 
 ## Securing your devices
-Read the [How to survive guide][1] in the Congress Wiki. There are many excellent tips in there.
-
+I will secure my devices
 
 ### Backups
-Make fresh backups of ALL the devices you bring to CCCongress. Test that you can actually restore data from those backups!
-
+I will make backups
 
 ### Full disk encryption
-Activate full disk encryption with pre-boot authentication. (Mac: Activate FileVault.)
-
+I use full disk encryption
 
 ### Backups
-You did make fresh backups of all your devices, did you?
-
+I will make backups.
 
 ### Servers
 Check that _all_ your server services are using proper TLS. See [bettercrypto.org][15] for help on how to properly configure your servers. (Mail, Web, VPN, SSH, etc.)
 
 
 ### VPN tunnel
-Have at least one trusted, working and tested VPN endpoint available for tunneling out of the congress network. If you don't have your own VPN server at your disposal ask friends you trust to help you out. If you do, ask your friends if they need a VPN endpoint and share!  
-
-- [OpenVPN][16]
-- L2TP/IPSec
-- [SSH][18]
-- [SSHuttle][9]
-- [iodine][17] (DNS tunnel for those pesky for-pay captive portal WiFi networks)
-- [Tor/Vidalia][19]
+Need to configure iDevices to properly connect to my OpenVPN server.
 
 Also have those tunnels configured on ALL the devices you intend to use, and have it tested. That includes your laptops, phones, tablets, servers, fridge, etc.
 
@@ -256,19 +240,9 @@ Also have those tunnels configured on ALL the devices you intend to use, and hav
 ### Phones
 It is not recommended to connect your smartphone to the congress wifi, if you still can't resist, here are a few things to consider:
 
-- Make sure that it's **not a 802.11b** device, as it would slow down the complete wifi network.
-- Disable all synchronization services, as they might be using plaintext.
-- Disable all auto-discovery services (network music players, remote control apps, etc …).
-- Make sure there are no known exploits for your device (not that unknown-to-you exploits wouldn't be a possible risk as well…).
-- Turn off push notifications.
-- Update your apps, especially your browser.
-- Use a VPN tunnel if possible.
-- Use a Firewall and only allow the (few) services you trust.
-	- [DroidWall][20] for Android (root required)
-- If you don't have a VPN tunnel available, you can use [OnionBrowser][7] to surf via tor (which may be it's own kind of risk).
+- Use a VPN tunnel.
 - Set your GSM network selection to **manual** or you might end up connected to a rogue GMS network by somebody.
 
-**If you are unsure** that there might still be some services running and transmitting plaintext data, **do not connect**.
 
 ## Thanks for being awesome
 These people have contributed to improve this list for everyone (in no particular order):
